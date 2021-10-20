@@ -6,7 +6,7 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - runs: |
+      - run: |
           echo "hello world!"
           echo "another command"
 
