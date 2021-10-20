@@ -1,0 +1,12 @@
+name:  Hello workspace
+
+on: [workflow_dispatch]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - runs: |
+          echo "hello world!"
+          echo "another command"
+
